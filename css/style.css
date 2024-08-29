@@ -261,6 +261,40 @@ p a:hover {
 .logout-link:hover {
     background-color: #c82333; 
 }
+/* Filter and Sort Options */
+#filter-sort-form {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#filter-sort-form select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 0 10px;
+    font-size: 1em;
+    flex: 1;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+#filter-sort-form select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+#filter-sort-form label {
+    font-size: 1em;
+    color: #666;
+    margin-right: 10px;
+    line-height: 2.2;
+}
 
 
 
